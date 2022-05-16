@@ -194,12 +194,13 @@ img {
     box-shadow: 0 10px 10px #e7f2f9;
 }
 
-.web:active {
+.web:focus {
+    outline: 0;
     font-size: 15px;
     box-shadow: 0 5px 10px inset #e7f2f9;
 }
 
-.web:active .icon_web {
+.web:focus .icon_web {
     height: 30px;
     width: 30px;
 }
@@ -220,11 +221,12 @@ img {
     box-shadow: 0 10px 10px #e7f2f9;
 }
 
-.vk:active {
+.vk:focus {
+    outline: 0;
     box-shadow: 0 5px 10px inset #e7f2f9;
 }
 
-.vk:active .icon_vk {
+.vk:focus .icon_vk {
     height: 30px;
     width: 30px;
 }
@@ -245,12 +247,13 @@ img {
     box-shadow: 0 10px 10px #e7f2f9;
 }
 
-.tel:active {
+.tel:focus {
+    outline: 0;
     box-shadow: 0 5px 10px inset #e7f2f9;
     font-size: 15px;
 }
 
-.tel:active .icon_tel {
+.tel:focus .icon_tel {
     height: 30px;
     width: 30px;
 }
@@ -307,12 +310,12 @@ img {
         font-size: 10px;
     }
 
-    .web:active {
+    .web:focus {
         font-size: 8px;
         box-shadow: 0 5px 10px inset #e7f2f9;
     }
 
-    .web:active .icon_web {
+    .web:focus .icon_web {
         height: 24px;
         width: 24px;
     }
@@ -328,11 +331,11 @@ img {
         font-size: 10px;
     }
 
-    .vk:active {
+    .vk:focus {
         box-shadow: 0 5px 10px inset #e7f2f9;
     }
 
-    .vk:active .icon_vk {
+    .vk:focus .icon_vk {
         height: 22px;
         width: 22px;
     }
@@ -348,12 +351,12 @@ img {
         font-size: 10px;
     }
 
-    .tel:active {
+    .tel:focus {
         box-shadow: 0 5px 10px inset #e7f2f9;
         font-size: 8px;
     }
 
-    .tel:active .icon_tel {
+    .tel:focus .icon_tel {
         height: 22px;
         width: 22px;
     }
@@ -394,12 +397,12 @@ img {
         font-size: 8px;
     }
 
-    .web:active {
+    .web:focus {
         font-size: 7px;
         box-shadow: 0 5px 10px inset #e7f2f9;
     }
 
-    .web:active .icon_web {
+    .web:focus .icon_web {
         height: 22px;
         width: 22px;
     }
@@ -415,11 +418,11 @@ img {
         font-size: 8px;
     }
 
-    .vk:active {
+    .vk:focus {
         box-shadow: 0 5px 10px inset #e7f2f9;
     }
 
-    .vk:active .icon_vk {
+    .vk:focus .icon_vk {
         height: 20px;
         width: 20px;
     }
@@ -435,12 +438,12 @@ img {
         font-size: 8px;
     }
 
-    .tel:active {
+    .tel:focus {
         box-shadow: 0 5px 10px inset #e7f2f9;
         font-size: 7px;
     }
 
-    .tel:active .icon_tel {
+    .tel:focus .icon_tel {
         height: 20px;
         width: 20px;
     }
@@ -527,6 +530,10 @@ img {
     margin-right: 10px;
     font-weight: 600;
     color: var(--gray-color);
+}
+
+.email_link:focus {
+    outline: 0;
 }
 
 @media screen and (max-width: 768px) {
